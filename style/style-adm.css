@@ -1,0 +1,294 @@
+.header-adm
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.title
+{
+    display: flex;
+    
+}
+
+.title h3
+{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 30px;
+    margin-left: 30px;
+    margin-right: 10px;
+    color: #736e70;
+}
+
+.title p
+{
+    font-family: 'Manrope', sans-serif;
+    font-size: 30px;
+    color: #fecc75;
+}
+
+.menu
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.edit a
+{
+    text-decoration: none;
+    font-size: 20px;
+
+    font-family: 'Manrope', sans-serif;
+    color: #736e70;
+    
+}
+
+.edit
+{
+    text-align: center;
+    background-color: #EBEDEA;
+    width: 300px;
+    margin-bottom: 40px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 0 8px gray;
+}
+
+.edit:hover
+{
+    text-align: center;
+    background-color: #fecc75;
+    transition: 0.5s;
+    width: 300px;
+    margin-bottom: 40px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.profile
+{
+    margin-top: 10px;
+    display: flex;
+    font-family: 'Manrope', sans-serif;
+    background-color: #fecc75;
+    width: 200px;
+    height: 60px;
+    padding-left: 8px;
+    padding-top: 5px;
+    border-radius: 50px;
+    align-items: left;
+}
+
+.profile img
+{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.login-form
+{
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+    width: 300px;
+    height: 350px;
+    padding-top: 40px;
+    margin-left: 500px;
+}
+
+.login-form input
+{
+    width: 250px;
+    height: 30px;
+    border: none;
+    border-bottom-style: solid;
+    background-color: #EBEDEA;
+    border-width: 1px;
+}
+
+.login-btn
+{
+    width: 256px;
+    font-family: 'Manrope', sans-serif;
+    background-color: #fecc75;
+    border: none;
+    cursor: pointer;
+    height: 30px;
+}
+
+.logout-btn
+{
+    background-color: #fecc75;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+.input-form
+{
+    margin-top: 10px;
+    margin-left: 500px;
+    font-family: 'Manrope';
+    background-color: #FFFF;
+    width: 350px;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    height: 680px;
+    box-shadow: 0 0 8px gray;
+}
+
+.input-form input
+{
+    padding-left: 20px;
+    width: 300px;
+    height: 30px;
+}
+
+.input-form input::placeholder
+{
+    padding-left: 20px;
+    font-family: 'Manrope';
+}
+
+.input-btn
+{
+    width: 300px;
+    height: 40px;
+    background-color: #fecc75;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #736e70;
+    font-family: 'Manrope';
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.radio
+{
+    background-color: #e2e2e2;
+    width: 310px;
+    border-radius: 10px;
+    padding-top: 7px;
+    height: 40px;
+    margin-left: 20px;
+}
+
+.radio-input input
+{
+    width: 20px;
+    height: 20px;
+}
+
+.file-input
+{
+    background-color: #e2e2e2;
+    width: 310px;
+    margin-left: 20px;
+}
+
+.regist-form
+{
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+    width: 350px;
+    height: 470px;
+    padding-top: 10px;
+    margin-left: 500px;
+}
+
+.regist-form input::placeholder
+{
+    font-family: 'Manrope';
+}
+
+.regist-form input
+{
+    padding-left: 10px;
+    border: none;
+    background-color: #fafafa;
+    border-bottom-style: solid;
+    border-width: 1px;
+    width: 300px;
+    height: 30px;
+}
+
+.regist-btn
+{
+    width: 307px;
+    background-color: #fecc75;
+    cursor: pointer;
+    height: 35px;
+    border: none;
+}
+
+.isi
+{
+    background-color: #fafafa;
+    box-shadow: 0 0 10px gray;
+    width: 670px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 300px;
+}
+
+.isi img
+{
+    width: 200px;
+    height: 200px;
+}
+
+table
+{
+    font-family: 'Manrope';
+    width: 50%;
+}
+
+.dlt-btn
+{
+    width: 100px;
+    border: none;
+    background-color: #fecc75;
+    cursor: pointer;
+    border-radius: 8px;
+    height: 50px;
+}
+
+.buy-form
+{
+    font-family: 'Manrope';
+    text-align: center;
+}
+
+.buy-form input
+{
+    width: 300px;
+    height: 30px;
+}
+
+.buy-btn
+{
+    width: 300px;
+    border: none;
+    background-color: #fecc75;
+    cursor: pointer;
+    border-radius: 8px;
+    height: 50px;
+}
