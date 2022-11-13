@@ -67,7 +67,8 @@
             <input type="number" name="harga-produk" placeholder="harga produk...">
 
             <p>Deskripsi</p>
-            <input type="text" name="desc" placeholder="deskripsi..." required>
+            <textarea name="desc" id="desc" cols=" 41" rows="10"></textarea>
+            <!-- <input type="text" name="desc" placeholder="deskripsi..." required> -->
 
             <div class="radio-input">
                 <p>Kategori :</p>
