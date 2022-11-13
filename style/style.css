@@ -1,0 +1,331 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: #ffc052;
+}
+
+.contain-model
+{
+    background-image: url("../background/bg-model-index.jpg");
+    height: 570px;
+}
+
+
+
+
+.header
+{
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    align-items: center;
+    color: #736E70;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 90px;
+}
+
+.header ul
+{
+    display: flex;
+    list-style: none;
+}
+
+.nav li > a
+{
+
+    padding: 30px;
+    color: #736E70;
+}
+
+.button li > a
+{
+    padding: 12px;
+    color: #736E70;
+}
+
+.sign-in
+{
+    background-color: #FECC75;
+    color: #736E70;
+    height: 30px;
+    cursor: pointer;
+    width: 100px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    border-style: none;
+    border-radius: 6px;
+}
+
+.sign-in:hover
+{
+    background-color: #ffe2b0;
+    transition: 0.5s;
+    height: 30px;
+    cursor: pointer;
+    width: 100px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    border-style: none;
+    border-radius: 6px;
+}
+
+.header a
+{
+    text-decoration: none;
+}
+
+.title-logo
+{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 38px;
+}
+
+.text-contain
+{
+    margin-top: 120px;
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+}
+
+.text-contain h3
+{
+    font-size: 56px;
+    color: #3f3c3d;
+}
+
+.sign-up
+{
+    background-color: #FECC75;
+    color: #736E70;
+    border: none;
+    width: 200px;
+    font-size: 20px;
+    border-radius: 10px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.sign-up:hover
+{
+    background-color: #ffe2b0;
+    border: none;
+    width: 200px;
+    font-size: 20px;
+    transition: 0.5s;
+    border-radius: 10px;
+    height: 50px;
+}
+
+.footer-index
+{
+    width: 100%;
+    bottom: 0;
+    font-family: 'Manrope', sans-serif;
+    color: #736E70;
+}
+
+.search-box input
+{
+    width: 300px;
+    height: 30px;
+    padding-left: 20px;
+    border-color: #FECC75;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.search-box input::placeholder
+{
+    font-family: 'Manrope', sans-serif;
+}
+
+.search-btn
+{
+    height: 34px;
+    width: 40px;
+    color: #736E70;
+    border: none;
+    background-color: #FECC75;
+    cursor: pointer;
+}
+
+.login-btn
+{
+    height: 34px;
+    margin-right: 5px;
+    background-color: white;
+    font-size: 15px;
+    color: #3f3c3d;
+    border: none;
+    padding: 9px;   
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.logout-btn
+{
+    cursor: pointer;
+    height: 34px;
+    background-color: #FECC75;
+    border: none;
+    padding: 9px;   
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+.home-nav
+{
+    font-family: 'Manrope', sans-serif;
+    height: 30px;
+    text-align: center;
+    background-color: #3f3c3d;
+}
+
+.home-nav ul
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.home-nav li
+{
+    list-style-type: none;
+}
+
+.home-nav a
+{
+    font-size: 17px;
+    text-decoration: none;
+    color: #fafafa;
+    text-align: center;
+}
+
+.ads-model img
+{
+    width: 100%;
+    height: 400px;
+    /* margin-top: 130px; */
+    cursor: pointer;
+    margin-bottom: 0;
+}
+
+.cart
+{
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    padding-right: 20px;
+    background-color: #3f3c3d;
+    height: 50px;
+}
+
+.cart p
+{
+    margin-right: 10px;
+    color: #fafafa;
+    font-family: 'Manrope';
+}
+
+.cart-btn
+{
+    width: 200px;
+    height: 30px;
+    font-family: 'Manrope';
+    background-color: #ffc052;
+    border: none;
+    border-radius: 8px;
+    color: #3f3c3d;
+    cursor: pointer;
+}
+
+.clothes
+{
+    box-shadow: 0 0 10px #afafaf;
+    margin: 30px;
+    font-family: 'Manrope';
+    background-color: #fafafa;
+    width: 250px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.clothes img
+{
+    width: 250px;
+    height: 300px;
+}
+
+.buy-button
+{
+    cursor: pointer;
+    width: 250px;
+    height: 30px;
+    border: none;
+    background-color: #ffc052;
+}
+
+.product
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product a
+{
+    text-decoration: none;
+    color: #3f3c3d;
+}
+
+.detail-item
+{
+    padding: 20px;
+    background-color: #fafafa;
+    display: flex;
+    font-family: 'Manrope';
+    box-shadow: 0 0 10px gray;
+}
+
+.detail-item img
+{
+    width: 400px;
+    height: 400px;
+}
+
+.desc
+{   margin-left: 10px;
+    padding: 20px;
+}
+
+.desc p
+{
+    font-size: 30px;
+}
+
+.ctest 
+{
+    font-family: 'Manrope';
+    margin-left: 500px;
+    background-color: #FFFF;
+    width: 300px;
+    padding: 20px;
+}
+
+.ctest img
+{
+    width: 300px;
+    height: 300px   ;
+}
+
+.price
+{
+    text-align: center;
+    color: #ffc052;
+    font-size: 30px;
+}
